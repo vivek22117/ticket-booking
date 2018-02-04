@@ -51,6 +51,12 @@ public class Ticket {
 	private String sourceStation;
 	private String destinationStation;
 	private String email;
+
+	@Override
+	public String toString() {
+		return "Ticket [ticketId=" + ticketId + ", customerName=" + customerName + ", sourceStation=" + sourceStation
+				+ ", destinationStation=" + destinationStation + ", email=" + email + "]";
+	}
 	
 	
 	

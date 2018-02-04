@@ -1,1 +1,0 @@
-insert into ticket values(101, 'vijay','france','china','vijay@gmail.com');
